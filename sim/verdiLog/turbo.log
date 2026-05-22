@@ -1,3 +1,0 @@
-Command Line: /home/david/synopsys/verdi2016/platform/LINUXAMD64/bin/Novas -autoalias -2012 -nologo -f files.f
-uname(Linux david-virtual-machine 4.15.0-142-generic #146~16.04.1-Ubuntu SMP Tue Apr 13 09:27:15 UTC 2021 x86_64)
-au time 113.383376 11.206325 18.131767 delta 437215232 437215232 total 820961280 820961280
