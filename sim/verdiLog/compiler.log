@@ -1,0 +1,198 @@
+*design* DebussyLib (btIdent Verdi3_L-2016.06-1)
+Command arguments:
+    +define+verilog
+    -2012
+    -f files.f
+        +incdir+../rtl/includes
+        ../rtl/ALU.v
+        ../rtl/ControlUnit.v
+        ../rtl/DM.v
+        ../rtl/EXT.v
+        ../rtl/Flopr.v
+        ../rtl/IM.v
+        ../rtl/IR.v
+        ../rtl/MUX_2to1_A.v
+        ../rtl/MUX_3to1_B.v
+        ../rtl/MUX_3to1.v
+        ../rtl/MUX_3to1_LMD.v
+        ../rtl/NPC.v
+        ../rtl/PC.v
+        ../rtl/RF.v
+        ../rtl/riscv.v
+        ../tb/riscv_sim.v
+
+
+*Warning* symbol RFWrite_ID duplicated
+"../rtl/ControlUnit.v", 38: 
+Highest level modules:
+riscv_sim
+
+
+*Warning* port sizes differ (32 vs 1) in port connection (port in_data)
+"../rtl/ControlUnit.v", 42: 
+
+*Warning* port sizes differ (32 vs 1) in port connection (port out_data)
+"../rtl/ControlUnit.v", 42: 
+
+*Warning* port sizes differ (32 vs 1) in port connection (port in_data)
+"../rtl/ControlUnit.v", 43: 
+
+*Warning* port sizes differ (32 vs 1) in port connection (port out_data)
+"../rtl/ControlUnit.v", 43: 
+
+*Warning* port sizes differ (32 vs 1) in port connection (port in_data)
+"../rtl/ControlUnit.v", 44: 
+
+*Warning* port sizes differ (32 vs 1) in port connection (port out_data)
+"../rtl/ControlUnit.v", 44: 
+
+*Warning* port sizes differ (32 vs 1) in port connection (port in_data)
+"../rtl/ControlUnit.v", 46: 
+
+*Warning* port sizes differ (32 vs 1) in port connection (port out_data)
+"../rtl/ControlUnit.v", 46: 
+
+*Warning* port sizes differ (32 vs 1) in port connection (port in_data)
+"../rtl/ControlUnit.v", 48: 
+
+*Warning* port sizes differ (32 vs 1) in port connection (port out_data)
+"../rtl/ControlUnit.v", 48: 
+
+*Warning* port sizes differ (32 vs 5) in port connection (port in_data)
+"../rtl/ControlUnit.v", 50: 
+
+*Warning* port sizes differ (32 vs 5) in port connection (port out_data)
+"../rtl/ControlUnit.v", 50: 
+
+*Warning* port sizes differ (32 vs 5) in port connection (port in_data)
+"../rtl/ControlUnit.v", 51: 
+
+*Warning* port sizes differ (32 vs 5) in port connection (port out_data)
+"../rtl/ControlUnit.v", 51: 
+
+*Warning* port sizes differ (32 vs 1) in port connection (port in_data)
+"../rtl/ControlUnit.v", 53: 
+
+*Warning* port sizes differ (32 vs 1) in port connection (port out_data)
+"../rtl/ControlUnit.v", 53: 
+
+*Warning* port sizes differ (32 vs 2) in port connection (port in_data)
+"../rtl/ControlUnit.v", 54: 
+
+*Warning* port sizes differ (32 vs 2) in port connection (port out_data)
+"../rtl/ControlUnit.v", 54: 
+
+*Warning* port sizes differ (32 vs 1) in port connection (port in_data)
+"../rtl/ControlUnit.v", 56: 
+
+*Warning* port sizes differ (32 vs 1) in port connection (port out_data)
+"../rtl/ControlUnit.v", 56: 
+
+*Warning* port sizes differ (32 vs 1) in port connection (port in_data)
+"../rtl/ControlUnit.v", 57: 
+
+*Warning* port sizes differ (32 vs 1) in port connection (port out_data)
+"../rtl/ControlUnit.v", 57: 
+
+*Warning* port sizes differ (32 vs 4) in port connection (port in_data)
+"../rtl/ControlUnit.v", 59: 
+
+*Warning* port sizes differ (32 vs 4) in port connection (port out_data)
+"../rtl/ControlUnit.v", 59: 
+
+*Warning* port sizes differ (32 vs 1) in port connection (port in_data)
+"../rtl/ControlUnit.v", 61: 
+
+*Warning* port sizes differ (32 vs 1) in port connection (port out_data)
+"../rtl/ControlUnit.v", 61: 
+
+*Warning* port sizes differ (32 vs 1) in port connection (port in_data)
+"../rtl/ControlUnit.v", 62: 
+
+*Warning* port sizes differ (32 vs 1) in port connection (port out_data)
+"../rtl/ControlUnit.v", 62: 
+
+*Warning* port sizes differ (32 vs 1) in port connection (port in_data)
+"../rtl/ControlUnit.v", 63: 
+
+*Warning* port sizes differ (32 vs 1) in port connection (port out_data)
+"../rtl/ControlUnit.v", 63: 
+
+*Warning* port sizes differ (32 vs 5) in port connection (port in_data)
+"../rtl/ControlUnit.v", 65: 
+
+*Warning* port sizes differ (32 vs 5) in port connection (port out_data)
+"../rtl/ControlUnit.v", 65: 
+
+*Warning* port sizes differ (32 vs 5) in port connection (port in_data)
+"../rtl/ControlUnit.v", 66: 
+
+*Warning* port sizes differ (32 vs 5) in port connection (port out_data)
+"../rtl/ControlUnit.v", 66: 
+
+*Warning* port sizes differ (32 vs 5) in port connection (port in_data)
+"../rtl/ControlUnit.v", 67: 
+
+*Warning* port sizes differ (32 vs 5) in port connection (port out_data)
+"../rtl/ControlUnit.v", 67: 
+
+*Warning* port sizes differ (32 vs 2) in port connection (port in_data)
+"../rtl/ControlUnit.v", 69: 
+
+*Warning* port sizes differ (32 vs 2) in port connection (port out_data)
+"../rtl/ControlUnit.v", 69: 
+
+*Warning* port sizes differ (32 vs 2) in port connection (port in_data)
+"../rtl/ControlUnit.v", 70: 
+
+*Warning* port sizes differ (32 vs 2) in port connection (port out_data)
+"../rtl/ControlUnit.v", 70: 
+
+*Warning* port sizes differ (32 vs 2) in port connection (port in_data)
+"../rtl/ControlUnit.v", 71: 
+
+*Warning* port sizes differ (32 vs 2) in port connection (port out_data)
+"../rtl/ControlUnit.v", 71: 
+
+*Warning* port sizes differ (32 vs 12) in port connection (port in_data)
+"../rtl/MUX_3to1_B.v", 15: 
+
+*Warning* port sizes differ (32 vs 1) in port connection (port out_data)
+"../rtl/MUX_3to1_B.v", 15: 
+
+*Warning* port sizes differ (32 vs 2) in port connection (port in_data)
+"../rtl/MUX_3to1_B.v", 17: 
+
+*Warning* port sizes differ (32 vs 2) in port connection (port out_data)
+"../rtl/MUX_3to1_B.v", 17: 
+
+*Warning* port sizes differ (32 vs 12) in port connection (port in_data)
+"../rtl/NPC.v", 24: 
+
+*Warning* port sizes differ (32 vs 12) in port connection (port out_data)
+"../rtl/NPC.v", 24: 
+
+*Warning* port sizes differ (32 vs 5) in port connection (port in_data)
+"../rtl/RF.v", 24: 
+
+*Warning* port sizes differ (32 vs 5) in port connection (port out_data)
+"../rtl/RF.v", 24: 
+
+*Warning* port sizes differ (32 vs 5) in port connection (port in_data)
+"../rtl/RF.v", 25: 
+
+*Warning* port sizes differ (32 vs 5) in port connection (port out_data)
+"../rtl/RF.v", 25: 
+
+*Warning* port sizes differ (32 vs 5) in port connection (port in_data)
+"../rtl/RF.v", 26: 
+
+*Warning* port sizes differ (32 vs 5) in port connection (port out_data)
+"../rtl/RF.v", 26: 
+
+*Warning* port sizes differ (32 vs 30) in port connection (port rs)
+"../rtl/riscv.v", 66: 
+
+*Warning* port sizes differ (5 vs 32) in port connection (port Y)
+"../rtl/riscv.v", 112: 
+Total	0 error(s),   57 warning(s)

@@ -1,0 +1,134 @@
+Magic 271485
+Revision Verdi3_L-2016.06-1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 28 2493 495 100 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/david/Desktop/我想这应该是完全体了 (copy)/riscv_cpu_design(1)/riscv_cpu_design/sim/novas.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 86532.100999 97238.912685
+cursor 0.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 4
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+aliasmapname riscv.opcode
+nalias OP_STORE		7'b0100011		NULL
+nalias OP_B_TYPE		7'b1100011		NULL
+
+aliasmapname ALU.ALUOp
+nalias ALUOp_ADD		4'b0000		NULL
+nalias ALUOp_XOR		4'b0100		NULL
+nalias ALUOp_SUB		4'b0001		NULL
+nalias ALUOp_SLL		4'b1000		NULL
+nalias ALUOp_AND		4'b0010		NULL
+nalias ALUOp_SRL		4'b1001		NULL
+nalias ALUOp_OR		4'b0011		NULL
+nalias ALUOp_SRA		4'b0111		NULL
+
+aliasmapname MUX_3to1_B.ALUSrcB_EX
+nalias ALUSrcB_B		2'b00		NULL
+nalias ALUSrcB_Imm		2'b01		NULL
+nalias ALUSrcB_Offset		2'b10		NULL
+nalias ALUSrcB_else		2'b11		NULL
+
+aliasmapname MUX_3to1_LMD.control
+nalias WDSel_FromALU		2'b00		NULL
+nalias WDSel_FromMEM		2'b01		NULL
+nalias WDSel_FromPC		2'b10		NULL
+nalias WDSel_Else		2'b11		NULL
+
+aliasmapname MUX_3to1.control
+nalias RegSel_rd		2'b00		NULL
+nalias RegSel_rt		2'b01		NULL
+nalias RegSel_31		2'b10		NULL
+nalias RegSel_else		2'b11		NULL
+
+aliasmapname NPC.NPCOp
+nalias NPC_PC		2'b00		NULL
+nalias NPC_Offset12		2'b01		NULL
+nalias NPC_rs		2'b10		NULL
+nalias NPC_Offset20		2'b11		NULL
+
+aliasmapname ControlUnit.opcode
+nalias OP_STORE		7'b0100011		NULL
+nalias OP_B_TYPE		7'b1100011		NULL
+nalias OP_R_TYPE		7'b0110011		NULL
+nalias OP_JALR		7'b1100111		NULL
+nalias OP_LOAD		7'b0000011		NULL
+nalias OP_I_TYPE		7'b0010011		NULL
+nalias OP_JAL		7'b1101111		NULL
+
+aliasmapname ControlUnit.Funct3
+nalias F3_ORI		3'b110		NULL
+nalias F3_AND		3'b111		NULL
+nalias F3_BEQ		3'b000		NULL
+nalias F3_BNE		3'b001		NULL
+nalias F3_XOR		3'b100		NULL
+nalias F3_SRL_SRA		3'b101		NULL
+
+aliasmapname ControlUnit.NPCop
+nalias NPC_PC		2'b00		NULL
+nalias NPC_Offset12		2'b01		NULL
+nalias NPC_rs		2'b10		NULL
+nalias NPC_Offset20		2'b11		NULL
+
+aliasmapname ControlUnit.WDSel_ID
+nalias WDSel_FromALU		2'b00		NULL
+nalias WDSel_FromMEM		2'b01		NULL
+nalias WDSel_FromPC		2'b10		NULL
+
+aliasmapname ControlUnit.ALUOp_ID
+nalias ALUOp_ADD		4'b0000		NULL
+nalias ALUOp_SUB		4'b0001		NULL
+nalias ALUOp_XOR		4'b0100		NULL
+nalias ALUOp_SLL		4'b1000		NULL
+nalias ALUOp_AND		4'b0010		NULL
+nalias ALUOp_OR		4'b0011		NULL
+nalias ALUOp_SRL		4'b1001		NULL
+nalias ALUOp_SRA		4'b0111		NULL
+
+addGroup "G1"
+activeDirFile "" "/home/david/Desktop/我想这应该是完全体了 (copy)/riscv_cpu_design(1)/riscv_cpu_design/sim/novas.fsdb"
+addSignal -h 15 -UNSIGNED -HEX /riscv_sim/U_RISCV/U_DM/memory[20][31:0]
+addSignal -h 15 -UNSIGNED -HEX /riscv_sim/U_RISCV/U_RF/register[28][31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope register[27][31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope register[29][31:0]
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

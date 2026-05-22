@@ -1,0 +1,173 @@
+6        
+0 ctrl_signal_def.v
+0 /home/david/synopsys/vcs2016/etc/systemverilog/ctrl_signal_def.v
+0 instruction_def.v
+0 /home/david/synopsys/vcs2016/etc/systemverilog/instruction_def.v
+0 global_def.v
+0 /home/david/synopsys/vcs2016/etc/systemverilog/global_def.v
+39
++itf+/home/david/synopsys/vcs2016/linux64/lib/vcsdp_lite.tab
++nospecify
++notimingchecks
++v2k
++vc
++vcsd1
++vpi
++warn=noPCWM
+-Mamsrun=
+-Masflags=
+-Mcc=gcc-4.8
+-Mcfl= -pipe -fPIC -fno-lto -I/home/david/synopsys/vcs2016/include
+-Mcplusplus=g++-4.8
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -Wl,--no-as-needed -fno-lto -rdynamic
+-Mobjects= /home/david/synopsys/vcs2016/linux64/lib/libvirsim.so /home/david/synopsys/vcs2016/linux64/lib/liberrorinf.so /home/david/synopsys/vcs2016/linux64/lib/libsnpsmalloc.so /home/david/synopsys/verdi2016/share/PLI/VCS/LINUX64/pli.a
+-Mout=simv
+-Msaverestoreobj=/home/david/synopsys/vcs2016/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/home/david/synopsys/verdi2016/share/PLI/VCS/LINUX64/pli.a -ldl -lm
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/david/synopsys/vcs2016/include
+-P
+-P
+-debug_acc+all
+-debug_acc+fsdb
+-f ./files.f
+-fsdb
+-fsdb
+-full64
+-gen_obj
+-picarchive
+-sverilog
+-timescale=1ns/1ps
+/home/david/synopsys/vcs2016/linux64/bin/vcs1
+/home/david/synopsys/verdi2016/share/PLI/VCS/LINUX64/novas.tab
+/home/david/synopsys/verdi2016/share/PLI/VCS/LINUX64/verdi.tab
+93
+sysc_uni_pwd=/home/david/Desktop/我想这应该是完全体了 (copy)/riscv_cpu_design(1)/riscv_cpu_design/sim
+XMODIFIERS=@im=fcitx
+XDG_VTNR=7
+XDG_SESSION_TYPE=x11
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+XDG_SESSION_ID=c2
+XDG_SESSION_DESKTOP=ubuntu
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+XDG_SEAT=seat0
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_MENU_PREFIX=gnome-
+XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/david
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+XDG_CURRENT_DESKTOP=Unity
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg
+XAUTHORITY=/home/david/.Xauthority
+VMR_MODE_FLAG=64
+VERDI_HOME=/home/david/synopsys/verdi2016
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/home/david/synopsys/vcs2016
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/1651
+UPSTART_JOB=unity7
+UPSTART_EVENTS=xsession started
+UNITY_HAS_3D_SUPPORT=true
+UNITY_DEFAULT_PROFILE=unity
+UNAME=/bin/uname
+TOOL_HOME=/home/david/synopsys/vcs2016/linux64
+TERM_PROGRAM_VERSION=1.70.2
+TERM_PROGRAM=vscode
+SYNOPSYS=/home/david/synopsys/dc2016
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SPYGLASS_MODULE_PATH=/home/david/synopsys/spyglass2016/SpyGlass-L2016.06/SPYGLASS_HOME/lib
+SPYGLASS_HOME=/home/david/synopsys/spyglass2016/SpyGlass-L2016.06/SPYGLASS_HOME
+SESSION_MANAGER=local/david-virtual-machine:@/tmp/.ICE-unix/1863,unix/david-virtual-machine:/tmp/.ICE-unix/1863
+SESSIONTYPE=gnome-session
+SESSION=ubuntu
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_QPA_PLATFORMTHEME=appmenu-qt5
+QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1
+QT_IM_MODULE=fcitx
+QT_ACCESSIBILITY=1
+QT4_IM_MODULE=fcitx
+PT_HOME=/home/david/synopsys/pt2016
+PAPERSIZE=a4
+OVA_UUM=0
+ORIGINAL_XDG_CURRENT_DESKTOP=Unity
+NOVAS_HOME=/home/david/synopsys/verdi2016
+MFLAGS=
+MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path
+MAKE_TERMOUT=/dev/pts/18
+MAKE_TERMERR=/dev/pts/18
+MAKELEVEL=1
+MAKEFLAGS=
+LESSOPEN=| /usr/bin/lesspipe %s
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LC_TIME=zh_CN.UTF-8
+LC_TELEPHONE=zh_CN.UTF-8
+LC_PAPER=zh_CN.UTF-8
+LC_NUMERIC=zh_CN.UTF-8
+LC_NAME=zh_CN.UTF-8
+LC_MONETARY=zh_CN.UTF-8
+LC_MEASUREMENT=zh_CN.UTF-8
+LC_IDENTIFICATION=zh_CN.UTF-8
+LC_ALL=C
+LC_ADDRESS=zh_CN.UTF-8
+JOB=unity-settings-daemon
+IM_CONFIG_PHASE=1
+GTK_MODULES=gail:atk-bridge:unity-gtk-module
+GTK_IM_MODULE=fcitx
+GTK2_MODULES=overlay-scrollbar
+GPG_AGENT_INFO=/home/david/.gnupg/S.gpg-agent:0:1
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GIO_LAUNCHED_DESKTOP_FILE_PID=2508
+GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/code.desktop
+GDM_LANG=en_US
+GDMSESSION=ubuntu
+GDK_BACKEND=x11
+FM_HOME=/home/daivd/synopsys/fm2015
+DESKTOP_SESSION=ubuntu
+DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
+DC_HOME=/home/david/synopsys/dc2016
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Ve1YaYuG5b
+COMPIZ_CONFIG_PROFILE=ubuntu
+COMPIZ_BIN_PATH=/usr/bin/
+COLORTERM=truecolor
+CLUTTER_IM_MODULE=xim
+CHROME_DESKTOP=code-url-handler.desktop
+0
+23
+1777172852 ../rtl/includes/global_def.v
+1777908182 ../rtl/includes/instruction_def.v
+1777885096 ../rtl/includes/ctrl_signal_def.v
+1777962948 ../tb/riscv_sim.v
+1779442787 ../rtl/riscv.v
+1779442911 ../rtl/RF.v
+1779442803 ../rtl/PC.v
+1779442836 ../rtl/NPC.v
+1779443185 ../rtl/MUX_3to1_LMD.v
+1779443172 ../rtl/MUX_3to1.v
+1779443243 ../rtl/MUX_3to1_B.v
+1779443229 ../rtl/MUX_2to1_A.v
+1779442862 ../rtl/IR.v
+1779442850 ../rtl/IM.v
+1779443197 ../rtl/Flopr.v
+1779443218 ../rtl/EXT.v
+1779443276 ../rtl/DM.v
+1779442898 ../rtl/ControlUnit.v
+1779443263 ../rtl/ALU.v
+1777885172 ./files.f
+1468145700 /home/david/synopsys/verdi2016/share/PLI/VCS/LINUX64/novas.tab
+1468145700 /home/david/synopsys/verdi2016/share/PLI/VCS/LINUX64/verdi.tab
+1464145466 /home/david/synopsys/vcs2016/linux64/lib/vcsdp_lite.tab
+5
+0 
+1464147802 /home/david/synopsys/vcs2016/linux64/lib/libvirsim.so
+1464147272 /home/david/synopsys/vcs2016/linux64/lib/liberrorinf.so
+1464147248 /home/david/synopsys/vcs2016/linux64/lib/libsnpsmalloc.so
+1468144468 /home/david/synopsys/verdi2016/share/PLI/VCS/LINUX64/pli.a
+1779443424 simv.daidir

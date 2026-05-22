@@ -1,0 +1,22 @@
+{
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module"
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module"
+    ],
+    "Flopr": [
+        "Flopr",
+        "zTi0Q",
+        "module"
+    ],
+    "riscv_sim": [
+        "riscv_sim",
+        "SjLLE",
+        "module"
+    ]
+}

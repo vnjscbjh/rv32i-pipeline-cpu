@@ -1,0 +1,34 @@
+# VCS / Verdi
+simv*
+csrc/
+DVEfiles/
+ucli.key
+*.vpd
+*.vcd
+*.fsdb
+*.log
+*.key
+*.conf
+*.history
+*.tmp
+*.bak
+*.daidir/
+verdiLog/
+
+# build files
+build/
+out/
+
+# waveform
+*.wlf
+
+# vscode
+.vscode/
+
+# linux
+*.swp
+*~
+
+# temp
+*.o
+*.obj
