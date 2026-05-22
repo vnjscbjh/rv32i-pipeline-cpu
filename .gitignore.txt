@@ -1,34 +1,67 @@
-# VCS / Verdi
+# =========================================================
+# VCS / Verdi Generated Files
+# =========================================================
+
+simv
 simv*
+simv.daidir/
 csrc/
 DVEfiles/
 ucli.key
-*.vpd
-*.vcd
+
+# waveform / dump
 *.fsdb
-*.log
-*.key
-*.conf
-*.history
-*.tmp
-*.bak
-*.daidir/
-verdiLog/
-
-# build files
-build/
-out/
-
-# waveform
+*.vcd
+*.vpd
 *.wlf
 
-# vscode
-.vscode/
+# logs
+*.log
+*.history
 
-# linux
-*.swp
-*~
+# verdi
+verdiLog/
+novas*
+*.rc
+*.conf
+*.ses
+*.cmd
+*.bak
 
-# temp
+# compile / temp
+*.tmp
 *.o
 *.obj
+*.a
+*.so
+
+# =========================================================
+# Linux / Editor
+# =========================================================
+
+*~
+*.swp
+.vscode/
+.idea/
+
+# =========================================================
+# Python
+# =========================================================
+
+__pycache__/
+*.pyc
+
+# =========================================================
+# Build / Output
+# =========================================================
+
+build/
+out/
+output/
+
+# =========================================================
+# OS Generated
+# =========================================================
+
+.DS_Store
+Thumbs.db
