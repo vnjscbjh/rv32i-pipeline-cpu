@@ -37,13 +37,13 @@ IF → ID → EX → MEM → WB
 | MEM | Data memory access |
 | WB | Write-back to register file |
 
-
 ```mermaid
 flowchart LR
-    IF[IF: Instruction Fetch] --> ID[ID: Instruction Decode]
-    ID --> EX[EX: Execute]
-    EX --> MEM[MEM: Memory Access]
-    MEM --> WB[WB: Write Back]
+    IF["IF: Instruction Fetch"] --> ID["ID: Instruction Decode"]
+    ID --> EX["EX: Execute"]
+    EX --> MEM["MEM: Memory Access"]
+    MEM --> WB["WB: Write Back"]
+```
 
 ![Architecture](image/Architecture.png)
 
