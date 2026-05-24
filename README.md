@@ -21,7 +21,7 @@ A 32-bit five-stage pipelined CPU based on the RISC-V RV32I ISA implemented in V
 
 rtl/ : RTL source files  
 tb/ : Testbench  
-doc/ : Documentation and diagrams
+
 
 ## Tools
 
