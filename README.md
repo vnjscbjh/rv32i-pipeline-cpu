@@ -37,6 +37,14 @@ IF → ID → EX → MEM → WB
 | MEM | Data memory access |
 | WB | Write-back to register file |
 
+
+```mermaid
+flowchart LR
+    IF[IF: Instruction Fetch] --> ID[ID: Instruction Decode]
+    ID --> EX[EX: Execute]
+    EX --> MEM[MEM: Memory Access]
+    MEM --> WB[WB: Write Back]
+
 ![Architecture](image/Architecture.png)
 
 ---
@@ -147,6 +155,15 @@ make verdi
 - Verdi
 - Linux
 
+
+## Future Work
+
+- Extend support for more RV32I instructions
+- Add branch prediction to reduce control hazard penalty
+- Add automated regression tests
+- Improve waveform documentation
+- Explore FPGA prototype implementation
+- Complete backend synthesis and APR flow
 ## Author
 
 **Zhaowei Cai**  
