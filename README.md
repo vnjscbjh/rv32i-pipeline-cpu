@@ -37,10 +37,11 @@ IF → ID → EX → MEM → WB
 | MEM | Data memory access |
 | WB | Write-back to register file |
 
+![Architecture](image/Architecture.png)
+
 ---
 
 
-![Architecture](image/Architecture.png)
 
 ## Hazard Handling
 
