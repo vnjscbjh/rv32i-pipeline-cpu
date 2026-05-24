@@ -13,8 +13,9 @@ A 32-bit five-stage pipelined CPU based on the RISC-V RV32I ISA implemented in V
 - Functional verification with VCS and Verdi
 
 ## Architecture
+![Uploading 结构图.png…]()
 
-(Add pipeline diagram here)
+
 
 ## Directory Structure
 
